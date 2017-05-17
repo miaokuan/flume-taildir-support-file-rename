@@ -132,7 +132,10 @@ public class ReliableTaildirEventReader implements ReliableEventReader {
 							+ ", pos: " + pos + ", path: " + path);
 				}
 				TailFile tf = tailFiles.get(inode);
-				if (tf != null && tf.updatePos(path, inode, pos)) {
+
+                // support file rename
+				// if (tf != null && tf.updatePos(path, inode, pos)) {
+				if (tf != null && tf.updatePos(tf.getPath(), inode, pos)) {
 					tailFiles.put(inode, tf);
 				} else {
 					logger.info("Missing file: " + path + ", inode: " + inode + ", pos: " + pos);
