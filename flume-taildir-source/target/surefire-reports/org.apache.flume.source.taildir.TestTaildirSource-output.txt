@@ -1,5 +1,0 @@
-log4j:WARN No appenders could be found for logger (org.apache.flume.source.taildir.TaildirSource).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-/var/folders/p2/2q2x4wv563s7rql9kx0v2nqc0000gp/T/1494984596167-0
-[file1line1, file1line2, file1line3, file2line1, file2line2, file2line3, file4line1, file4line2, file4line3, file3line1, file3line2, file3line3]
