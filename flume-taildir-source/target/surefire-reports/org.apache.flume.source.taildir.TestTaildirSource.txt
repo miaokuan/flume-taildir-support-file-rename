@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.flume.source.taildir.TestTaildirSource
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.447 sec
